@@ -1,0 +1,722 @@
+[
+  {
+    "name": "Few-Shot Prompting",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "description": "In-context learning: give the model a few input-output examples in the prompt; the technique introduced alongside GPT-3 (Brown et al., 2020).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Chain-of-Thought Prompting",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "description": "Elicit step-by-step reasoning with intermediate rationales; large gains on arithmetic and symbolic tasks (Wei et al., 2022).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Zero-Shot Chain-of-Thought",
+    "url": "https://arxiv.org/abs/2205.11916",
+    "description": "Append 'Let's think step by step' to trigger reasoning with no examples (Kojima et al., 2022).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Self-Consistency",
+    "url": "https://arxiv.org/abs/2203.11171",
+    "description": "Sample multiple reasoning paths and take the majority answer; improves over greedy CoT decoding (Wang et al., 2022).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Least-to-Most Prompting",
+    "url": "https://arxiv.org/abs/2205.10625",
+    "description": "Decompose a problem into easier subproblems and solve them sequentially (Zhou et al., 2022).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Generated Knowledge Prompting",
+    "url": "https://arxiv.org/abs/2110.08387",
+    "description": "First generate relevant knowledge statements, then condition the answer on them; helps commonsense reasoning (Liu et al., 2022).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Scratchpad",
+    "url": "https://arxiv.org/abs/2112.00114",
+    "description": "Let the model write intermediate computation into a 'scratchpad' before answering (Nye et al., 2021).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "ReAct",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "description": "Interleave reasoning traces with actions (search, tools); synergizes chain-of-thought with tool use (Yao et al., 2022).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Program-Aided Language Models (PAL)",
+    "url": "https://arxiv.org/abs/2211.10435",
+    "description": "Offload computation to a Python interpreter: the model writes code, the runtime executes it (Gao et al., 2022).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Plan-and-Solve Prompting",
+    "url": "https://arxiv.org/abs/2305.04091",
+    "description": "First devise a plan dividing the task into subtasks, then execute it; strengthens zero-shot CoT (Wang et al., 2023).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "ART",
+    "url": "https://arxiv.org/abs/2303.09014",
+    "description": "Automatic multi-step reasoning and tool use: pause generation at tool calls, resume with the outputs (Paranjape et al., 2023).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "ReWOO",
+    "url": "https://arxiv.org/abs/2305.18323",
+    "description": "Decouple reasoning from observations: plan all tool calls upfront (planner/worker/solver), cutting token cost (Xu et al., 2023).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Tree of Thoughts",
+    "url": "https://arxiv.org/abs/2305.10601",
+    "description": "Search over coherent thought units with lookahead and backtracking for deliberate problem solving (Yao et al., 2023).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Graph of Thoughts",
+    "url": "https://arxiv.org/abs/2308.09687",
+    "description": "Generalize tree search to arbitrary graph topologies over thought units for elaborate problems (Besta et al., 2023).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Self-Refine",
+    "url": "https://arxiv.org/abs/2303.17651",
+    "description": "Iterative refinement loop: generate, self-critique with feedback, refine (Madaan et al., 2023).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Reflexion",
+    "url": "https://arxiv.org/abs/2303.11366",
+    "description": "Verbal reinforcement learning: agents reflect on failures in natural language and retry (Shinn et al., 2023).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Active Prompting",
+    "url": "https://arxiv.org/abs/2302.12246",
+    "description": "Select the most uncertain examples for human annotation to build better few-shot CoT sets (Diao et al., 2023).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Complexity-Based Prompting",
+    "url": "https://arxiv.org/abs/2210.00720",
+    "description": "Prefer few-shot examples with more reasoning steps; complex prompts transfer better (Fu et al., 2022).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Contrastive Chain-of-Thought",
+    "url": "https://arxiv.org/abs/2311.09277",
+    "description": "Show both valid and invalid reasoning demonstrations so the model learns what mistakes to avoid (Chia et al., 2023).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Directional Stimulus Prompting",
+    "url": "https://arxiv.org/abs/2302.11520",
+    "description": "A small tunable model generates hints ('stimuli') that steer a frozen LLM (Li et al., 2023).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Analogical Prompting",
+    "url": "https://arxiv.org/abs/2310.01714",
+    "description": "Ask the model to recall analogous problems and solve them first, then tackle the target (Yasunaga et al., 2023).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Multi-Agent Debate",
+    "url": "https://arxiv.org/abs/2305.14325",
+    "description": "Several model instances debate with self-generated arguments; improves factuality and reasoning (Du et al., 2023).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Meta-Prompting",
+    "url": "https://arxiv.org/abs/2401.12954",
+    "description": "One LM acts as conductor, delegating subtasks to tailored 'expert' instances of itself; zero-shot and task-agnostic (Suzgun & Kalai, 2024).",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Prompt Chaining",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+    "description": "Split a task into sequential LLM steps where each step's output feeds the next; a core production pattern in the vendor guides.",
+    "category": "technique",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "DSPy",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "description": "Stanford framework for programming LMs: composable modules (signatures) plus optimizers instead of hand-written prompts.",
+    "category": "framework",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "LangChain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "Framework for LLM apps: prompt templates, chains, agents, and a large integration ecosystem.",
+    "category": "framework",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "Guidance",
+    "url": "https://github.com/guidance-ai/guidance",
+    "description": "Control language interleaving generation with programming logic: regex, CFGs, and structured control flow.",
+    "category": "framework",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "LMQL",
+    "url": "https://github.com/eth-sri/lmql",
+    "description": "Query language for LLMs with constraints, scripting, and decoding control (ETH SRI).",
+    "category": "framework",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "Outlines",
+    "url": "https://github.com/dottxt-ai/outlines",
+    "description": "Structured text generation: constrain decoding with regex, JSON schema, or grammars.",
+    "category": "framework",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "Instructor",
+    "url": "https://github.com/567-labs/instructor",
+    "description": "Structured LLM outputs in Python: Pydantic-validated responses with automatic retries.",
+    "category": "framework",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "BAML",
+    "url": "https://github.com/BoundaryML/baml",
+    "description": "Typed prompt functions: write prompts as functions with schemas; Boundary's LLM-function language.",
+    "category": "framework",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "ell",
+    "url": "https://github.com/MadcowD/ell",
+    "description": "Lightweight prompt-engineering library: prompts as versioned, testable Python functions.",
+    "category": "framework",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "APPL",
+    "url": "https://github.com/appl-team/appl",
+    "description": "Prompt programming language: embed natural-language prompts in Python with async parallelization and tracing.",
+    "category": "framework",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "marvin",
+    "url": "https://github.com/PrefectHQ/marvin",
+    "description": "Prefect's AI engineering framework: typed, testable LLM functions via Python decorators.",
+    "category": "framework",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "Semantic Kernel",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "description": "Microsoft's SDK for wiring LLMs into apps: semantic functions, planners, and plugins.",
+    "category": "framework",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "Mirascope",
+    "url": "https://github.com/Mirascope/mirascope",
+    "description": "Typed, provider-agnostic LLM calls in Python with prompt templates built from type hints.",
+    "category": "framework",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "TypeChat",
+    "url": "https://github.com/microsoft/TypeChat",
+    "description": "Microsoft's TypeScript library for building typed natural-language interfaces.",
+    "category": "framework",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "Promptfoo",
+    "url": "https://promptfoo.dev",
+    "description": "Open-source LLM eval toolkit: assertions, red-teaming, and CI-ready prompt test runs.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "LangSmith",
+    "url": "https://www.langchain.com/langsmith",
+    "description": "LangChain's platform for prompt iteration: prompt hub/versioning, tracing, and evals.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "Langfuse",
+    "url": "https://langfuse.com/docs",
+    "description": "Open-source LLM engineering platform: prompt management and versioning, tracing, analytics.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "Helicone",
+    "url": "https://www.helicone.ai",
+    "description": "Open-source LLM observability proxy: request logging, caching, rate limits, and evals.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "W&B Weave",
+    "url": "https://wandb.ai/site/weave",
+    "description": "Weights & Biases toolkit for tracing, versioning, and evaluating LLM calls.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "PromptLayer",
+    "url": "https://www.promptlayer.com",
+    "description": "Prompt registry with versioning and release labels, request logging, and evals; Python/JS SDKs.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "Vellum",
+    "url": "https://www.vellum.ai",
+    "description": "Prompt playground, versioning, and workflow builder for production LLM apps.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "OpenAI Playground",
+    "url": "https://platform.openai.com/playground",
+    "description": "OpenAI's hosted console for iterating on prompts across models and parameters.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "Anthropic Workbench",
+    "url": "https://console.anthropic.com/workbench",
+    "description": "Anthropic Console's prompt IDE: iterate, compare, and test prompts.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "Automatic Prompt Engineer (APE)",
+    "url": "https://arxiv.org/abs/2211.01910",
+    "description": "LLMs as human-level prompt engineers: generate and select instructions automatically (Zhou et al., 2022).",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "OPRO",
+    "url": "https://arxiv.org/abs/2309.03409",
+    "description": "Optimization by PROmpting: use an LLM as the optimizer, described in natural language (Yang et al., 2023).",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Promptbreeder",
+    "url": "https://arxiv.org/abs/2309.16797",
+    "description": "Self-referential self-improvement: evolve both task-prompts and mutation-prompts (Fernando et al., 2023).",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "EvoPrompt",
+    "url": "https://arxiv.org/abs/2309.08532",
+    "description": "Connect LLMs with evolutionary algorithms for discrete prompt optimization (Guo et al., 2023).",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "ProTeGi",
+    "url": "https://arxiv.org/abs/2305.03495",
+    "description": "Automatic prompt optimization with textual 'gradient descent' and beam search (Pryzant et al., 2023).",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "TextGrad",
+    "url": "https://arxiv.org/abs/2406.07496",
+    "description": "Automatic 'differentiation' via text: backpropagate natural-language feedback through compound AI systems (Yuksekgonul et al., 2024).",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "PromptWizard",
+    "url": "https://arxiv.org/abs/2405.18369",
+    "description": "Microsoft's task-aware optimizer: self-evolving critique-and-synthesis loop over instructions and examples (Agarwal et al., 2024). Code: microsoft/PromptWizard.",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "DSPy Optimizers",
+    "url": "https://dspy.ai",
+    "description": "Programmatic prompt optimization (COPRO, MIPRO): compile declarative LM pipelines against a metric.",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "OpenAI Evals",
+    "url": "https://github.com/openai/evals",
+    "description": "OpenAI's framework for evaluating LLMs and LLM systems with YAML-defined evals.",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "LM Evaluation Harness",
+    "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "description": "EleutherAI's standard harness for few-shot evaluation of language models.",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "HELM",
+    "url": "https://github.com/stanford-crfm/helm",
+    "description": "Stanford CRFM's holistic evaluation of language models across scenarios and metrics.",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "PromptBench",
+    "url": "https://github.com/microsoftarchive/promptbench",
+    "description": "Microsoft's benchmark for prompt robustness: attacks, defenses, and prompt variations. (Archived.)",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "DeepEval",
+    "url": "https://github.com/confident-ai/deepeval",
+    "description": "Open-source LLM evaluation framework: unit-test-style evals with 14+ research-backed metrics.",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "Chain-of-Thought Hub",
+    "url": "https://github.com/FranxYao/chain-of-thought-hub",
+    "description": "Benchmark suite measuring chain-of-thought reasoning across math, science, and symbolic tasks.",
+    "category": "evaluation",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "OpenAI Prompt Engineering Guide",
+    "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+    "description": "OpenAI's official playbook: the six strategies for getting better results.",
+    "category": "guide",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "Anthropic Prompt Engineering Docs",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+    "description": "Anthropic's Claude docs: prompt structure, chaining prompts, and long-context tips.",
+    "category": "guide",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "Google Prompt Engineering Whitepaper",
+    "url": "https://www.kaggle.com/whitepaper-prompt-engineering",
+    "description": "Lee Boonstra's 68-page practitioner whitepaper (Google/Kaggle): techniques from zero-shot to ReAct.",
+    "category": "guide",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "author's site (leeboonstra.dev) via web search"
+  },
+  {
+    "name": "Learn Prompting",
+    "url": "https://learnprompting.org",
+    "description": "Free, open-source course covering beginner to advanced prompting.",
+    "category": "guide",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "Prompt Engineering Guide (DAIR.AI)",
+    "url": "https://promptingguide.ai",
+    "description": "Community reference for prompting techniques, papers, and model-specific notes.",
+    "category": "guide",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "Lil'Log: Prompt Engineering",
+    "url": "https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/",
+    "description": "Lilian Weng's deep, well-referenced tour of prompting research.",
+    "category": "guide",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "A Prompt Pattern Catalog",
+    "url": "https://arxiv.org/abs/2302.11382",
+    "description": "Reusable prompt patterns for ChatGPT: personas, recipes, templates, and games (White et al., 2023).",
+    "category": "guide",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Brex Prompt Engineering Guide",
+    "url": "https://github.com/brexhq/prompt-engineering",
+    "description": "Brex's public playbook: structured outputs, grounding, and production prompting.",
+    "category": "guide",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "Awesome ChatGPT Prompts",
+    "url": "https://github.com/f/prompts.chat",
+    "description": "Community-curated collection of ChatGPT system prompts across roles and tasks.",
+    "category": "guide",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "OpenAI Cookbook",
+    "url": "https://github.com/openai/openai-cookbook",
+    "description": "OpenAI's example code and guides, including many prompt-engineering patterns.",
+    "category": "guide",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "GitHub API"
+  },
+  {
+    "name": "Pre-train, Prompt, and Predict",
+    "url": "https://arxiv.org/abs/2107.13586",
+    "description": "Foundational survey of prompting methods in NLP (Liu et al., 2021).",
+    "category": "paper",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "A Systematic Survey of Prompt Engineering in Large Language Models",
+    "url": "https://arxiv.org/abs/2402.07927",
+    "description": "44 techniques across application areas with per-task performance summaries (2024).",
+    "category": "paper",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "The Prompt Report",
+    "url": "https://arxiv.org/abs/2406.06608",
+    "description": "Taxonomy of 58 prompting techniques from 1,500+ papers plus meta-analysis (Schulhoff et al., 2024).",
+    "category": "paper",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Why Johnny Can't Prompt",
+    "url": "https://doi.org/10.1145/3544548.3581388",
+    "description": "CHI 2023 study: how non-experts actually design prompts - and fail (Zamfirescu-Pereira et al.).",
+    "category": "paper",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "DOI record via web search"
+  },
+  {
+    "name": "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+    "url": "https://arxiv.org/abs/2310.03714",
+    "description": "The DSPy paper: separate program from prompt, optimize programmatically (Khattab et al., 2023).",
+    "category": "paper",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Prompting Is Programming (LMQL)",
+    "url": "https://arxiv.org/abs/2212.06094",
+    "description": "A query language for LLMs with constraints and control flow (Beurer-Kellner et al., 2022).",
+    "category": "paper",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models",
+    "url": "https://arxiv.org/abs/2307.12980",
+    "description": "Prompting for Flamingo, CLIP, Stable Diffusion and friends (Gu et al., 2023).",
+    "category": "paper",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv abs page via web search"
+  },
+  {
+    "name": "Indirect Prompt Injection",
+    "url": "https://arxiv.org/abs/2302.12173",
+    "description": "'Not what you've signed up for': compromising real-world LLM-integrated apps via indirect injection (Greshake et al., 2023).",
+    "category": "security",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "arXiv API"
+  },
+  {
+    "name": "Simon Willison: Prompt Injection Series",
+    "url": "https://simonwillison.net/series/prompt-injection/",
+    "description": "Ongoing field notes on prompt-injection attacks and defenses.",
+    "category": "security",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  },
+  {
+    "name": "OWASP Top 10 for LLM Applications",
+    "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+    "description": "Security risks for LLM apps, starting with LLM01 prompt injection.",
+    "category": "security",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "HTTP 200 via curl"
+  }
+]
