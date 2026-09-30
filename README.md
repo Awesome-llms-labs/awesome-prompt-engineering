@@ -1,6 +1,6 @@
 # Awesome Prompt Engineering 🧠✨
 
-[![ci](https://github.com/awesome-llms-labs/awesome-prompt-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/awesome-llms-labs/awesome-prompt-engineering/actions/workflows/ci.yml)
+[![ci](https://github.com/dakotac1994/awesome-prompt-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/dakotac1994/awesome-prompt-engineering/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated, research-backed guide to **prompt engineering**: prompting techniques, frameworks & libraries, tooling, evaluation & optimization methods, guides, key papers, and prompt security.
